@@ -1,4 +1,4 @@
-const {crawlPage} = require("./crawl.js")
+const { crawlPage } = require("./crawl.js");
 
 const main = () => {
   if (process.argv.length < 3) {
@@ -13,7 +13,7 @@ const main = () => {
   const baseUrl = process.argv[2];
 
   console.log(`starting crawl of ${baseUrl}`);
-  crawlPage(baseUrl)
+  crawlPage(baseUrl);
 };
 
 main();
